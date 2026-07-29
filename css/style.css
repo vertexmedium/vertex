@@ -1,0 +1,178 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+
+    margin:0;
+    min-height:100vh;
+
+    font-family:Arial, sans-serif;
+
+    color:white;
+
+}
+
+
+
+/* FIRST PAGE + ALL PAGES BACKGROUND */
+
+.landing-page,
+body{
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.65)
+    ),
+    url("../images/key-background.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+}
+
+
+
+/* CENTER LAYOUT */
+
+.landing-page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+
+
+/* GLASS EFFECT */
+
+.overlay{
+
+    width:90%;
+
+    max-width:500px;
+
+    padding:40px 30px;
+
+
+    background:rgba(255,255,255,0.12);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:25px;
+
+
+    box-shadow:
+
+    0 15px 40px rgba(0,0,0,0.4);
+
+}
+
+
+
+/* LOGO */
+
+.logo{
+
+    width:100px;
+
+    height:100px;
+
+    object-fit:contain;
+
+    margin-bottom:20px;
+
+}
+
+
+
+/* TEXT */
+
+h1{
+
+    font-size:45px;
+
+    letter-spacing:5px;
+
+    margin:10px 0;
+
+}
+
+
+
+h2{
+
+    font-weight:normal;
+
+}
+
+
+
+/* BUTTON AREA */
+
+.buttons{
+
+    margin-top:30px;
+
+}
+
+
+
+/* LINKS AS BUTTONS */
+
+.buttons a{
+
+    display:block;
+
+    margin:15px 0;
+
+    padding:15px;
+
+
+    background:white;
+
+    color:#071426;
+
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+    h1{
+
+        font-size:35px;
+
+    }
+
+
+    .overlay{
+
+        padding:30px 20px;
+
+    }
+
+}
