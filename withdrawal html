@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>VERTEX - Withdraw</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="landing-page">
+
+
+<div class="overlay">
+
+
+<img src="images/logo.png" class="logo" alt="VERTEX Logo">
+
+
+<h1>VERTEX</h1>
+
+<h2>Withdraw</h2>
+
+
+
+<form id="withdrawForm">
+
+
+
+<input
+type="text"
+id="withdrawAddress"
+placeholder="USDT Wallet Address"
+required>
+
+
+
+<select id="withdrawNetwork" required>
+
+<option value="">
+Select Network
+</option>
+
+<option>
+TRC20
+</option>
+
+<option>
+ERC20
+</option>
+
+<option>
+BEP20 (BSC)
+</option>
+
+</select>
+
+
+
+<input
+type="number"
+id="withdrawAmount"
+placeholder="Withdrawal Amount"
+required>
+
+
+
+<button type="submit">
+
+Request Withdrawal
+
+</button>
+
+
+
+</form>
+
+
+
+<div class="buttons">
+
+<a href="account.html">
+Back to Account
+</a>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<script src="js/withdraw.js"></script>
+
+
+</body>
+
+</html>
